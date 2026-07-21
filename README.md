@@ -1,49 +1,33 @@
-# 💰 Personal Finance Tracker (Full-Stack Web App)
+# 📦 ShopZone - Inventory & Stock Management System
 
-A modern, responsive full-stack web application designed to help users track their income, manage monthly expenses, and visualize spending habits with interactive charts.
+A lightweight, responsive, and dynamic E-Commerce Inventory Management Portal built with pure **HTML5**, **CSS3**, and **JavaScript (ES6+)**. 
 
----
-
-## 📸 Screenshots & Demo
-
-*(Add screenshots of your dashboard and charts here)*
+This application allows store managers to track products, monitor stock levels, manage categories, and store data persistently using **Local Storage**.
 
 ---
 
 ## ✨ Features
 
-- 🔐 **Authentication & Authorization:** Secure user login and registration using **JWT**.
-- 📊 **Interactive Dashboard:** Dynamic charts powered by **Chart.js** to visualize financial habits.
-- 💳 **Expense Management:** Full CRUD operations for tracking income and expenses by category.
-- 🔍 **Filtering & Search:** Easily filter transactions by date range, type, or category.
-- 📱 **Responsive Design:** Clean and modern UI accessible on both desktop and mobile devices.
+- 📊 **Interactive Dashboard:** Live summary cards for total products, low stock alerts, and total inventory value.
+- 📦 **Product Management:** Add, edit, and delete products easily.
+- 📉 **Stock Control:** Quick stock updates (increase/decrease) with real-time feedback.
+- ⚠️ **Low Stock Warning:** Visual indicators for items below threshold stock levels.
+- 🔍 **Filter & Search:** Filter products by category or search by product name.
+- 💾 **Persistent Data:** Uses browser `localStorage` to save your data across reloads.
+- 📱 **Fully Responsive:** Beautiful, modern dark UI designed with modern CSS layout techniques.
 
 ---
 
 ## 🛠️ Tech Stack
 
-**Backend:**
-- **C# / .NET 8 Web API**
-- **Entity Framework Core**
-- **MSSQL / MySQL**
-- **JWT (JSON Web Tokens)**
-
-**Frontend:**
-- **HTML5 & Modern CSS3**
-- **JavaScript (ES6+) / Fetch API**
-- **Chart.js** (Data Visualization)
+- **Frontend:** HTML5, CSS3 (Flexbox/Grid), JavaScript (ES6+)
+- **Storage:** Browser `localStorage` API
+- **Icons:** FontAwesome / LineIcons
 
 ---
 
 ## 🚀 Getting Started
 
-### Prerequisites
-- [.NET 8 SDK](https://dotnet.microsoft.com/download)
-- [SQL Server](https://www.microsoft.com/sql-server) or MySQL
-- [Visual Studio 2022](https://visualstudio.microsoft.com/) / VS Code
-
-### Installation
-
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
-   git clone [https://github.com/ardacaliskan9/Personal-Finance-Tracker.git](https://github.com/ardacaliskan9/Personal-Finance-Tracker.git)
+   git clone [https://github.com/YOUR_USERNAME/ShopZone-Stock-Management.git](https://github.com/YOUR_USERNAME/ShopZone-Stock-Management.git)
